@@ -8,6 +8,8 @@ New features, bug fixes.
 Scrapped port change interrupt code and wrote polled code.
 Removed 1ms timer overflow interrupt which was dominating system realtime.
 Watchdog implemented.
+
+
 NEWS: YO6SSW has re-written drivers for the display board to reduce latency.  This should improve the bargraph 
       display dynamics substantially.
 
